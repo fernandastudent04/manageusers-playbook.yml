@@ -1,6 +1,6 @@
  hosts: all
-  become: true
-  gather_facts: false
+ become: true
+ gather_facts: false
 
   vars:
     mysql_service_state: restarted
